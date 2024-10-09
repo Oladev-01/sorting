@@ -19,6 +19,7 @@
     transition: height 0.1s;
     /* Smooth height transition */
 }
+
 .sorting-time {
     margin-top: 20px;
     font-size: 1.2rem;
@@ -26,6 +27,7 @@
     margin-left: 20px;
 }
 
-#generate, #bubble {
+#generate,
+#bubble {
     margin-right: 10px;
 }

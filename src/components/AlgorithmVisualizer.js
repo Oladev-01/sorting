@@ -3,7 +3,7 @@ import SortingVisualizer from './SortingVisualizer';
 
 const AlgorithmVisualizer = () => {
     return (
-        <div>
+        <div className='Alg visual'>
             <SortingVisualizer />
         </div>
     );
