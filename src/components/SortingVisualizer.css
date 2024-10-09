@@ -1,0 +1,31 @@
+/* styles.css */
+.sorting {
+    display: flex;
+    align-items: flex-end;
+    /* Align bars to the bottom */
+    height: 400px;
+    /* Height of the visualizer */
+    margin: 20px 20px;
+    /* Space around the visualizer */
+}
+
+.bar {
+    width: 10px;
+    /* Width of each bar */
+    background-color: blue;
+    /* Color of the bars */
+    margin: 0 1px;
+    /* Space between bars */
+    transition: height 0.1s;
+    /* Smooth height transition */
+}
+.sorting-time {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#generate, #bubble {
+    margin-right: 10px;
+}
